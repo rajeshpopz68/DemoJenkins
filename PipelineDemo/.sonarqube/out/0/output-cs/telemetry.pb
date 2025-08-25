@@ -1,0 +1,1 @@
+VR@D:\Docker Training\PipelineDemo\PipelineDemo\PipelineDemo.csproj¢net8.0òCSharp12

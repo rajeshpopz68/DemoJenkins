@@ -1,30 +1,34 @@
-# See https://aka.ms/customizecontainer to learn how to customize your debug container and how Visual Studio uses this Dockerfile to build your images for faster debugging.
 
-# This stage is used when running from VS in fast mode (Default for Debug configuration)
-FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS base
-USER $APP_UID
-WORKDIR /app
-EXPOSE 8080
-EXPOSE 8081
-
-
-# This stage is used to build the service project
+# Build stage
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
-ARG BUILD_CONFIGURATION=Release
 WORKDIR /src
-COPY ["PipelineDemo/PipelineDemo.csproj", "PipelineDemo/"]
-RUN dotnet restore "./PipelineDemo/PipelineDemo.csproj"
-COPY . .
-WORKDIR "/src/PipelineDemo"
-RUN dotnet build "./PipelineDemo.csproj" -c $BUILD_CONFIGURATION -o /app/build
-
-# This stage is used to publish the service project to be copied to the final stage
-FROM build AS publish
-ARG BUILD_CONFIGURATION=Release
-RUN dotnet publish "./PipelineDemo.csproj" -c $BUILD_CONFIGURATION -o /app/publish /p:UseAppHost=false
-
-# This stage is used in production or when running from VS in regular mode (Default when not using the Debug configuration)
-FROM base AS final
+ 
+# Copy the project file and restore dependencies
+COPY PipelineDemo.csproj ./
+RUN dotnet restore
+ 
+# Copy the rest of the source code
+COPY . ./
+RUN dotnet publish -c Release -o /app/publish
+ 
+# Runtime stage
+FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS runtime
 WORKDIR /app
-COPY --from=publish /app/publish .
+ 
+ 
+# Copy published output from build stage
+COPY --from=build /app/publish .
+ 
+# Expose port 5000 for the API
+EXPOSE 8085
+ 
+ 
+# Set environment variable for ASP.NET Core to listen on port 5000
+ENV ASPNETCORE_URLS=http://+:8085
+ 
+# Run the application
 ENTRYPOINT ["dotnet", "PipelineDemo.dll"]
+
+ 
+ 
+ 
