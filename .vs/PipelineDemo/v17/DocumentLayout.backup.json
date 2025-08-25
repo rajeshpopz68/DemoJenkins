@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{9EEC158A-3457-4BE2-8A1F-CE1ED17FC554}|PipelineDemo\\PipelineDemo.csproj|solutionrelative:pipelinedemo\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{9EEC158A-3457-4BE2-8A1F-CE1ED17FC554}|PipelineDemo\\PipelineDemo.csproj|d:\\docker training\\pipelinedemo\\pipelinedemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EEC158A-3457-4BE2-8A1F-CE1ED17FC554}|PipelineDemo\\PipelineDemo.csproj|solutionrelative:pipelinedemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FB8F2D7E-6910-477B-B65D-8D4560802991}|TestProject\\TestProject.csproj|d:\\docker training\\pipelinedemo\\testproject\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FB8F2D7E-6910-477B-B65D-8D4560802991}|TestProject\\TestProject.csproj|solutionrelative:testproject\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -22,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,24 +34,32 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Docker Training\\PipelineDemo\\PipelineDemo\\Program.cs",
+              "RelativeDocumentMoniker": "PipelineDemo\\Program.cs",
+              "ToolTip": "D:\\Docker Training\\PipelineDemo\\PipelineDemo\\Program.cs",
+              "RelativeToolTip": "PipelineDemo\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAB2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-25T11:22:49.637Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Dockerfile",
               "DocumentMoniker": "D:\\Docker Training\\PipelineDemo\\PipelineDemo\\Dockerfile",
               "RelativeDocumentMoniker": "PipelineDemo\\Dockerfile",
-              "ToolTip": "D:\\Docker Training\\PipelineDemo\\PipelineDemo\\Dockerfile*",
-              "RelativeToolTip": "PipelineDemo\\Dockerfile*",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAABYAAAALAAAAAAAAAA==",
+              "ToolTip": "D:\\Docker Training\\PipelineDemo\\PipelineDemo\\Dockerfile",
+              "RelativeToolTip": "PipelineDemo\\Dockerfile",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAswBQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2025-08-25T11:08:32.24Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "UnitTest1.cs",
               "DocumentMoniker": "D:\\Docker Training\\PipelineDemo\\TestProject\\UnitTest1.cs",
               "RelativeDocumentMoniker": "TestProject\\UnitTest1.cs",
@@ -55,12 +67,11 @@
               "RelativeToolTip": "TestProject\\UnitTest1.cs",
               "ViewState": "AgIAAAIAAAAAAAAAAAA0wAwAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-25T11:02:17.067Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-25T11:02:17.067Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\Docker Training\\PipelineDemo\\PipelineDemo\\Pages\\Index.cshtml",
               "RelativeDocumentMoniker": "PipelineDemo\\Pages\\Index.cshtml",
@@ -68,8 +79,11 @@
               "RelativeToolTip": "PipelineDemo\\Pages\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-25T10:51:34.414Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-25T10:51:34.414Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
             }
           ]
         }

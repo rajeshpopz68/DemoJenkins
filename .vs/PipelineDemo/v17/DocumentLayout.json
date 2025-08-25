@@ -42,8 +42,7 @@
               "RelativeToolTip": "PipelineDemo\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAB2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-25T11:22:49.637Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-25T11:22:49.637Z"
             },
             {
               "$type": "Document",
@@ -53,14 +52,10 @@
               "RelativeDocumentMoniker": "PipelineDemo\\Dockerfile",
               "ToolTip": "D:\\Docker Training\\PipelineDemo\\PipelineDemo\\Dockerfile",
               "RelativeToolTip": "PipelineDemo\\Dockerfile",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2025-08-25T11:08:32.24Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
             },
             {
               "$type": "Document",
@@ -72,8 +67,7 @@
               "RelativeToolTip": "TestProject\\UnitTest1.cs",
               "ViewState": "AgIAAAIAAAAAAAAAAAA0wAwAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-25T11:02:17.067Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-25T11:02:17.067Z"
             },
             {
               "$type": "Document",
@@ -85,8 +79,11 @@
               "RelativeToolTip": "PipelineDemo\\Pages\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-25T10:51:34.414Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-25T10:51:34.414Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
             }
           ]
         }
